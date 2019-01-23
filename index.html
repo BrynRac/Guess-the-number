@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Guess The Number</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/guess-the number.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|VT323" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="g-container">
+                
+                <div class="c-start" id="c-start">
+                <h1>Guess the number!</h1>
+                <button onclick="startGame()" id="button" class="start-button">Start</button>
+            </div>
+                <div class="c-game" id="c-game">
+                     
+                    <div class="game-window">
+                          
+                        <h2 id="guesses-remaining">Guesses remaining:</h2>
+                        <h3 id="last-guess">Last guess:</h3>
+                        <p>There's no time! try to guess the number between 0 and 100!</p>
+                        <div class="c-input">
+                            <input type="text" id="number">
+                            <button onclick="submitAnswer()" id="button" class="start-button">Submit</button>
+
+                            <h1 id="high-low"></h1>
+                        </div>
+                    </div>
+                    <div class="gif-window">
+                        <img src="assets/img/doot-doot.gif" width="500" height="430">
+                    </div>
+                </div>
+            </div>
+            <div class="c-bar" id="c-bar">
+                <div class="time-bar"></div>
+
+            </div>
+            <div c-win-text>
+                <h1 id="win-text">YOU WIN! OH YEAH!</h1>
+            </div>
+        </div>
+
+        <script src="assets/guess-the-number.js"></script>
+    </body>
+
+</html>

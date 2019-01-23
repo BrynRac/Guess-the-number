@@ -1,0 +1,149 @@
+body, html{
+    background: rgb(44, 44, 37);
+    margin: 0 auto;
+    
+}
+
+.g-container{
+    margin-top: 50px;
+    background:url("./img/background-pattern-min.jpg");
+    overflow: hidden;
+    animation: scrollingBG 15s infinite linear;
+    width: 100%;
+    height: 100%;
+}
+
+.c-start h1{
+    color: #FFFFFF;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, 
+    -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 
+    0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+@keyframes scrollingBG{
+    100% {
+        background-position: 0px -1003px
+    }
+}
+
+.c-start{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    border: 1px solid black;
+  
+}
+.start-button{
+    font-size: 2em;
+    font-family: "VT323", monospace;
+    color: rgb(212, 241, 255);
+    background: rgb(14, 67, 165);
+    border: 1px solid black;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 10%;
+    margin-bottom: 10px;
+
+}
+
+.start-button:hover{
+    border: 2px solid white;
+    
+}
+
+.start-button:active{
+    border: 3px solid white;
+    background: rgb(26, 9, 65);
+    opacity: 0.7;
+}
+
+.c-game{
+    display: flex;
+    justify-content: center;
+    border:1px solid white;
+    font-family: "Open Sans" sans-serif;
+    padding: 20px;
+    z-index: 2;
+    
+
+}
+
+.game-window{
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF;
+font-family: 'Open sans' sans-serif;
+font-size: 20px;
+text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, 
+-2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000,
+ 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    
+}
+.c-input {
+    width: 100%;
+    text-align: center;
+}
+
+#button{
+    margin: 5px;
+}
+#number{
+    width: 200px;
+    font-family: 'Open sans', sans-serif;
+    background: rgb(71, 44, 18);
+    color: wheat;
+    font-size: 2em;
+    text-align: center;
+}
+#high-low{
+    color: #FFFFFF;
+background: #FFFFFF;
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, 
+-2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 
+0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+.gif-window{
+    width:500px;
+    height:430px;
+    border: 2px solid white;
+    
+}
+
+.c-bar{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80%;
+    height: 30px;
+    background: rgb(158, 49, 49);
+    border: 2px solid rgb(226, 217, 210);
+    border-radius: 5%;
+}
+
+.time-bar{
+    animation-name: timeBar;
+    animation-duration: 60s;
+    height: 30px;
+    background: rgb(77, 147, 212);
+}
+
+@keyframes timeBar{
+    from { 
+        margin-left: 0px;
+    }
+    to { 
+        margin-left: 1229px;
+    }
+}
+
+#win-text{
+    font-size: 60px;
+    font-family: vt323;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, 
+    -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 
+    0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+
+}
