@@ -30,8 +30,8 @@ body, html{
     font-family: "Open Sans", sans-serif;
     text-align: center;
     border: 1px solid black;
-  
 }
+
 .start-button{
     font-size: 2em;
     font-family: "VT323", monospace;
@@ -43,7 +43,34 @@ body, html{
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 10%;
     margin-bottom: 10px;
+}
 
+#restart-button {
+    justify-content: center;
+}
+.restart-button{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: "VT323", monospace;
+    color: rgb(212, 241, 255);
+    background: rgb(165, 14, 14);
+    border: 1px solid black;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.restart-button:hover{
+border: 2px solid white;
+}
+
+.restart-button:active{
+    border: 3px solid white;
+    background: rgb(65, 9, 35);
+    opacity: 0.7;
 }
 
 .start-button:hover{
@@ -96,11 +123,12 @@ text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000,
     text-align: center;
 }
 #high-low{
+justify-content: center;
     color: #FFFFFF;
-background: #FFFFFF;
-text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, 
--2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 
-0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, 
+    -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 
+    0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 }
 .gif-window{
     width:500px;
@@ -135,7 +163,12 @@ text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5,
     }
 }
 
+#c-win-text{
+    justify-content: center;
+}
+
 #win-text{
+
     font-size: 60px;
     font-family: vt323;
     display: flex;
